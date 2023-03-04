@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  background-color: #A9C9FF;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#A9C9FF), to(#FFBBEC));
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  position: relative;
+}
+
+.box > .box1 {
+  width: 700px;
+  height: 550px;
+  background-color: #D9AFD9;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#D9AFD9), to(#97D9E1));
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  position: absolute;
+  top: 100px;
+  left: 460px;
+  -webkit-box-shadow: 18px  18px 18px #ffffffaf;
+          box-shadow: 18px  18px 18px #ffffffaf;
+}
+
+.box > .box1 > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+}
+
+.box .box2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: rgba(134, 156, 160, 0.788);
+  cursor: pointer;
+}
+
+.box .box2 > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-animation: sam 5s linear infinite;
+          animation: sam 5s linear infinite;
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.box .box2 > img:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-box-shadow: 18px  18px 18px #464343;
+          box-shadow: 18px  18px 18px #464343;
+}
+
+.box .box3 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  left: 1350px;
+  cursor: pointer;
+  background-color: rgba(134, 156, 160, 0.788);
+}
+
+.box .box3 > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-animation: sam 5s linear infinite;
+          animation: sam 5s linear infinite;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.box .box3 > img:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-box-shadow: 18px  18px 18px #464343;
+          box-shadow: 18px  18px 18px #464343;
+}
+
+.box .box5 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 500px;
+  left: 1350px;
+  background-color: rgba(255, 255, 255, 0.788);
+  cursor: pointer;
+}
+
+.box .box5 > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-animation: sam 5s linear infinite;
+          animation: sam 5s linear infinite;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.box .box5 > img:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-box-shadow: 18px  18px 18px #464343;
+          box-shadow: 18px  18px 18px #464343;
+}
+
+.box .box4 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 500px;
+  left: 40px;
+  cursor: pointer;
+  background-color: rgba(238, 213, 213, 0.788);
+}
+
+.box .box4 > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-animation: sam 5s linear infinite;
+          animation: sam 5s linear infinite;
+}
+
+.box .box4 > img:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-box-shadow: 18px  18px 18px #807d7d;
+          box-shadow: 18px  18px 18px #807d7d;
+}
+
+@-webkit-keyframes sam {
+  100% {
+    -webkit-transform: translate(10px, 10px) rotate(30deg);
+            transform: translate(10px, 10px) rotate(30deg);
+  }
+}
+
+@keyframes sam {
+  100% {
+    -webkit-transform: translate(10px, 10px) rotate(30deg);
+            transform: translate(10px, 10px) rotate(30deg);
+  }
+}
+/*# sourceMappingURL=slide.css.map */
